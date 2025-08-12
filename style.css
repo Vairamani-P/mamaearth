@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.topbanner{
+    background-color:rgb(252, 77, 88);
+    color: white;
+    align-items: center;
+    margin-top: 0%;
+    padding:0 10px;
+    justify-content: space-between;
+    display: flex;
+    height: 44px;
+    font-size: 14px;
+}
