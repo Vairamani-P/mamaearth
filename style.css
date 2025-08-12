@@ -13,3 +13,13 @@ body{
     height: 44px;
     font-size: 14px;
 }
+.offers{
+    text-align: left;
+    color: white; 
+    text-decoration: none;
+   }
+.offer{
+    text-align: right;
+    color:white;
+    text-decoration: none;
+}
