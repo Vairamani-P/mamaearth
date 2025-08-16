@@ -27,3 +27,27 @@ body{
     display: flex;
     align-items:flex-start;
 }
+.left-text{
+    color: rgb(93, 236, 93);
+    margin:50px;
+    margin-left: 0px;
+    margin-right: 50px;
+    
+}
+.right-text{
+    color: rgb(31, 135, 238);
+    margin-inline-end: auto;
+    margin: 40px;
+    margin-right: 0px;
+}
+img{
+    width: 1550px;;
+    height: 400px;;
+}
+.nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
