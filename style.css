@@ -11,7 +11,8 @@ body{
     justify-content: space-between;
     display: flex;
     height: 44px;
-    font-size: 14px;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
 }
 .offers{
     text-align: left;
@@ -28,20 +29,26 @@ body{
    margin-right: auto;
    margin-bottom:0px;
    padding:0px;
+   margin-top: 0px;
+   display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
-.left-text{
+ .left-text{
     color: rgb(93, 236, 93);
     margin:50px;
     margin-left: 0px;
-    margin-right: 50px;
+    margin-right: 0px;
+    font-size: 28px;
     
     
 }
-.right-text{
+ .right-text{
     color: rgb(31, 135, 238);
     margin-inline-end: auto;
     margin: 40px;
     margin-right: 0px;
+    font-size: 28px;
 }
 img{
     width: 1550px;;
@@ -53,6 +60,8 @@ img{
     justify-content: space-between;
     margin-left: 100px;
     margin-right: 100px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
 }
 /*.uses{
     font-size: 18px;
@@ -60,22 +69,21 @@ img{
     align-items: flex-end;
     justify-content: space-around;
 }*/
-.uses .login , .cart , .shop{
-    justify-content: space-around;
-    display: inline;
-    margin: 5px;
-    padding:0px;
-    font-size: 18px;
-
-}
-/*.uses .cart{
-    margin-left:1250px;
-    margin-bottom: 95px;
-    justify-content: space-around;
+.search .login {
     display: flex;
     text-align:end;
+    margin: 0px;
+    font-size: 18px;
+    margin-right: 100px;
 }
-.uses .shop{
+.search .cart{
+    display: flex;
+    margin: 0px;
+    font-size: 18px;
+    margin-right: 0px;
+
+}
+/*.uses .shop{
     margin-left:1250px;
     margin-bottom: 95px;
     justify-content: space-around;
