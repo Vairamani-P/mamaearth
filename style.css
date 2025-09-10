@@ -139,10 +139,6 @@ img{
     font-size: 18px;
     font-weight: bold;
     color: #111;
-  }.product-card .desc {
-    color: green;
-    font-size: 13px;
-    margin-bottom: 8px;
   }
   
   .badge {
@@ -167,3 +163,7 @@ img{
   .view-all{
     text-decoration: none;
   }
+  .badge.green {
+    background: rgb(97, 244, 72);
+  }
+  
