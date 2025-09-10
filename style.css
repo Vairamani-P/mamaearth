@@ -78,7 +78,6 @@ img{
     align-items: center;
     gap: 15px;
     margin-left: auto;
-
 }
 .header{
     display: flex;
@@ -92,3 +91,24 @@ img{
     display: flex;
     align-items: center;
 }
+.best-sellers {
+    padding: 40px 60px;
+    font-family: Arial, sans-serif;
+  }
+  .section-header {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  .product-card{
+    border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+  background: #fff;
+  position: relative;
+  text-align: center;
+  }
