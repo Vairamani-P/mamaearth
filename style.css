@@ -166,4 +166,12 @@ img{
   .badge.green {
     background: rgb(97, 244, 72);
   }
-  
+  .cart-btn{
+    background-color: rgb(67, 148, 179);
+  }
+  .add{
+    text-decoration: none;
+  }
+  .badge.purple{
+    background-color: purple;
+  }
