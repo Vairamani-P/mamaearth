@@ -25,22 +25,22 @@ body{
     text-decoration: none;
 }
 .search-box {
-    width: 250px;         
+    width: 450px;         
     padding: 8px 12px;     
     border: 1px solid #ccc;
-    border-radius: 4px 0 0 4px;
+    border-radius: 6px 0 0 6px;
     font-size: 14px;
-    margin-block-end: 10px;
-    margin-block-start: 0px;
+    margin: 0 ;
     }
 
   .search-btn{
-    width: 100px;         
+    width: 80px;         
     padding: 8px 12px;     
     border: 1px solid #ccc;
-    border-radius: 4px 0 0 4px;
+    border-radius: 0 4px 4px 0;
     font-size: 14px;
     background-color: rgb(101, 170, 255);
+    border-left: none;
 
   }
 
@@ -72,12 +72,23 @@ img{
     font-size: 14px;
 }
 .user-options{
-    margin-left: 1400px;
     color: black;
     font-size: 20px;
-    margin-top: 0px;
     display: flex;
-    justify-content: space-between;
-    padding: 0px 0px; 
+    align-items: center;
+    gap: 15px;
+    margin-left: auto;
 
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
 }
