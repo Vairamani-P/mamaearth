@@ -175,3 +175,6 @@ img{
   .badge.purple{
     background-color: purple;
   }
+  .badge.orange{
+    background-color:rgb(255, 165, 0);
+  }
