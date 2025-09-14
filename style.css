@@ -169,6 +169,10 @@ img{
   }
   .cart-btn{
     background-color: rgb(67, 148, 179);
+    width: 50px;         
+    border: none;
+    border-radius: 6px;
+    padding:0px 155px; 
   }
   .add{
     text-decoration: none;
