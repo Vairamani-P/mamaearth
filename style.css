@@ -78,6 +78,7 @@ img{
     align-items: center;
     gap: 15px;
     margin-left: auto;
+    text-decoration:none;
 }
 .header{
     display: flex;
